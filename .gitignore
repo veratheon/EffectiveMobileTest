@@ -132,3 +132,31 @@ $RECYCLE.BIN/
 .DS_Store
 
 _NCrunch*
+
+# Rider / VS Code
+.idea/
+.vscode/
+*.code-workspace
+
+# .NET Core generic
+bin/
+obj/
+out/
+publish/
+TestResult*/
+
+# NuGet кэш и артефакты
+*.nupkg
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+
+# Logs
+*.log
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# dotenv
+.env
